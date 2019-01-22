@@ -10,8 +10,6 @@ message Status {
     bool success = 1;
 }
 
-message Empty {}
-
 service Archive {
     rpc Execute (Payload) returns (Status);
 }
